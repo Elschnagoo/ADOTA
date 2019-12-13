@@ -1,6 +1,6 @@
 {
   "name": "ADOTA",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "AzureDevOps-To-Asana-Importer",
   "main": "build/app.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "tsc": "tsc",
     "buildRun": "tsc && node build/app.js"
   },
+  "scope":"@elschnagoo/ADOTA",
   "keywords": [],
   "author": "David Nagy",
   "license": "MIT",
