@@ -1,6 +1,6 @@
 {
   "name": "@elschnagoo/adota",
-  "version": "1.0.2",
+  "version": "1.0.2a",
   "description": "AzureDevOps-To-Asana-Importer",
   "main": "build/app.js",
   "scripts": {
