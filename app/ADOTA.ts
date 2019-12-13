@@ -5,7 +5,7 @@ import {WorkItem} from "azure-devops-node-api/interfaces/WorkItemTrackingInterfa
 const htmlToText = require('html-to-text');
 
 
-export default function ADOTA(asana:asanaCredentials,azure:azureDevOpsCredentials){
+export default function adota(asana:asanaCredentials,azure:azureDevOpsCredentials){
     run(azure).then((ek)=>{
         //console.log(ek[0])
            CreateProject(convertToRoot(ek),asana);
