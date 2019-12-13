@@ -2,4 +2,5 @@ import ADOTA from "./ADOTA";
 import {asanaCred, azureCredentials} from "./env";
 
 
-ADOTA(asanaCred,azureCredentials);
+export default ADOTA;
+//ADOTA(asanaCred,azureCredentials);
