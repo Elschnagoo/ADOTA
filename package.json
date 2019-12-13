@@ -1,12 +1,23 @@
 {
-  "name": "AzureDevOps-To-Asana-Importer",
+  "name": "ADOTA",
   "version": "1.0.0",
-  "description": "",
+  "description": "AzureDevOps-To-Asana-Importer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "buildRun": "tsc && node build/app.js"
   },
   "keywords": [],
   "author": "David Nagy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/asana": "^0.14.37",
+    "@types/node": "^12.12.17",
+    "asana": "^0.17.3",
+    "azure-devops-node-api": "latest",
+    "html-to-text": "^5.1.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.3"
+  }
 }
